@@ -1,0 +1,48 @@
+jc@JCTECH105 MINGW64 ~/Documents/projects/java/SpringBootApps/eshop (main)
+$ git push -u origin main
+Enumerating objects: 248, done.
+Counting objects: 100% (248/248), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (236/236), done.
+Writing objects: 100% (248/248), 774.67 KiB | 6.15 MiB/s, done.
+Total 248 (delta 34), reused 0 (delta 0)
+error: RPC failed; curl 92 HTTP/2 stream 0 was not closed cleanly: CANCEL (err 8)
+fatal: the remote end hung up unexpectedly
+fatal: the remote end hung up unexpectedly
+Everything up-to-date
+
+jc@JCTECH105 MINGW64 ~/Documents/projects/java/SpringBootApps/eshop (main)
+$ git push -u origin main
+Enumerating objects: 248, done.
+Counting objects: 100% (248/248), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (236/236), done.
+Writing objects: 100% (248/248), 774.67 KiB | 6.20 MiB/s, done.
+Total 248 (delta 34), reused 0 (delta 0)
+error: RPC failed; curl 92 HTTP/2 stream 0 was not closed cleanly: CANCEL (err 8)
+fatal: the remote end hung up unexpectedly
+fatal: the remote end hung up unexpectedly
+Everything up-to-date
+
+jc@JCTECH105 MINGW64 ~/Documents/projects/java/SpringBootApps/eshop (main)
+$ status
+bash: status: command not found
+
+jc@JCTECH105 MINGW64 ~/Documents/projects/java/SpringBootApps/eshop (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+jc@JCTECH105 MINGW64 ~/Documents/projects/java/SpringBootApps/eshop (main)
+$ ^C
+
+jc@JCTECH105 MINGW64 ~/Documents/projects/java/SpringBootApps/eshop (main)
+$ git config --global http.version HTTP/1.1
+
+jc@JCTECH105 MINGW64 ~/Documents/projects/java/SpringBootApps/eshop (main)
+$ git push
+fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin main
+

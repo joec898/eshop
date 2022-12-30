@@ -22,6 +22,10 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 
 import com.jctech.eshop.model.Customer;
 
+/**
+ * @author jc
+ */
+
 //@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT, properties="")
 @ExtendWith(SpringExtension.class)
 @AutoConfigureMockMvc

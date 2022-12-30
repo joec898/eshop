@@ -22,6 +22,10 @@ import com.jctech.eshop.exception.ObjectNotFoundException;
 import com.jctech.eshop.model.Customer;
 import com.jctech.eshop.service.CustomerService; 
 
+/**
+ * @author jc
+ */
+
 @AutoConfigureMockMvc
 @ExtendWith(SpringExtension.class)
 @WebMvcTest(CustomerController.class)

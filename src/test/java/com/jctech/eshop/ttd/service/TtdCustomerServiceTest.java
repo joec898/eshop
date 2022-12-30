@@ -21,6 +21,10 @@ import com.jctech.eshop.model.Customer;
 import com.jctech.eshop.repo.CustomerRepo;
 import com.jctech.eshop.service.CustomerServiceImpl;
 
+/**
+ * @author jc
+ */
+
 // JUnit 4 test
 //@RunWith(MockitoJUnitRunner.class)
 @ExtendWith(MockitoExtension.class)

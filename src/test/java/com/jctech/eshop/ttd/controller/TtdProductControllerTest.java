@@ -21,6 +21,10 @@ import com.jctech.eshop.exception.ObjectNotFoundException;
 import com.jctech.eshop.model.Product;
 import com.jctech.eshop.service.ProductService;
 
+/**
+ * @author jc
+ */
+
 @ExtendWith(SpringExtension.class) //Note: should use import org.junit.jupiter.api.Test
 @WebMvcTest(ProductController.class)
 public class TtdProductControllerTest {

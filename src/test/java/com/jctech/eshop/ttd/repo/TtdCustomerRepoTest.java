@@ -24,6 +24,10 @@ import org.springframework.test.context.ActiveProfiles;
 import com.jctech.eshop.model.Customer;
 import com.jctech.eshop.repo.CustomerRepo;
 
+/**
+ * @author jc
+ */
+
 @DataJpaTest
 @AutoConfigureTestDatabase(replace = AutoConfigureTestDatabase.Replace.NONE) // https://howtodoinjava.com/spring-boot2/testing/datajpatest-annotation/
 @ActiveProfiles("test")

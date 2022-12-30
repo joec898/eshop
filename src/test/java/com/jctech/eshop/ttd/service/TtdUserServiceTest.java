@@ -18,6 +18,10 @@ import com.jctech.eshop.model.user.User;
 import com.jctech.eshop.repo.UserRepo;
 import com.jctech.eshop.service.UserServiceImpl;
 
+/**
+ * @author jc
+ */
+
 @ExtendWith(MockitoExtension.class)
 public class TtdUserServiceTest {
 

@@ -23,6 +23,10 @@ import com.jctech.eshop.model.Product;
 import com.jctech.eshop.repo.ProductRepo;
 import com.jctech.eshop.service.ProductServiceImpl;
 
+/**
+ * @author jc
+ */
+
 @DataJpaTest
 @AutoConfigureTestDatabase(replace = AutoConfigureTestDatabase.Replace.NONE) // https://howtodoinjava.com/spring-boot2/testing/datajpatest-annotation/
 @ActiveProfiles("test")

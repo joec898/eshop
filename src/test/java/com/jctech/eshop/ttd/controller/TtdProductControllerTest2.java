@@ -36,6 +36,10 @@ import com.jctech.eshop.exception.ObjectNotFoundException;
 import com.jctech.eshop.model.Product;
 import com.jctech.eshop.service.ProductServiceImpl;
 
+/**
+ * @author jc
+ */
+
 @ExtendWith(MockitoExtension.class)
 public class TtdProductControllerTest2 {
 

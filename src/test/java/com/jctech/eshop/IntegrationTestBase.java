@@ -16,6 +16,10 @@ import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.jctech.eshop.api.session.SessionResponse;
 
+/**
+ * @author jc
+ */
+
 public abstract class IntegrationTestBase {
 
 	@org.springframework.boot.web.server.LocalServerPort

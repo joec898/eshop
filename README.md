@@ -1,6 +1,17 @@
-# springJwtDocker
+# eshop 
 
-eshop with springboot rest, jwt and angular
+eshop with spring boot rest, jwt and angular
 
-bootstrap from: 
+bootstrapped from: 
 https://github.com/mrin9/Angular-SpringBoot-REST-JWT
+
+data structure change:
+database tables added:
+ roles
+ user-roles 
+ 
+added test cases for TTD using junit.jupeter
+
+use SecurityFilterChain to replace depredated WebSecurityConfigurerAdapter
+ 
+added tasks.json and launch.json for angular test

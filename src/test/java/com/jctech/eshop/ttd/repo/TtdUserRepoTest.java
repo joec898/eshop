@@ -13,6 +13,10 @@ import com.jctech.eshop.model.user.ERole;
 import com.jctech.eshop.model.user.User;
 import com.jctech.eshop.repo.UserRepo;
 
+/**
+ * @author jc
+ */
+
 @DataJpaTest
 @AutoConfigureTestDatabase(replace = AutoConfigureTestDatabase.Replace.NONE)
 public class TtdUserRepoTest {

@@ -15,6 +15,10 @@ import org.springframework.data.domain.Pageable;
 import com.jctech.eshop.model.order.OrderInfo;
 import com.jctech.eshop.repo.OrderInfoRepo;
 
+/**
+ * @author jc
+ */
+
 @DataJpaTest
 @AutoConfigureTestDatabase(replace = AutoConfigureTestDatabase.Replace.NONE)
 public class TtdOrderInfoRepoTest {

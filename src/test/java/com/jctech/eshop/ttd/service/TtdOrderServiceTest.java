@@ -21,6 +21,10 @@ import com.jctech.eshop.model.order.Order;
 import com.jctech.eshop.repo.OrderRepo;
 import com.jctech.eshop.service.OrderServiceImpl;
 
+/**
+ * @author jc
+ */
+
 @ExtendWith(MockitoExtension.class) 
 public class TtdOrderServiceTest {
 	

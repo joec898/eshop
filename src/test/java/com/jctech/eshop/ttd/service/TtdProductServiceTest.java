@@ -22,6 +22,10 @@ import com.jctech.eshop.model.Product;
 import com.jctech.eshop.repo.ProductRepo; 
 import com.jctech.eshop.service.ProductServiceImpl;
 
+/**
+ * @author jc
+ */
+
 // JUnit 5S
 @ExtendWith(MockitoExtension.class)
 public class TtdProductServiceTest {

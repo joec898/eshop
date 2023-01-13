@@ -3,14 +3,17 @@ package com.jctech.eshop.api.controller;
 import javax.servlet.http.HttpServletRequest;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.google.common.base.Strings;
+import com.jctech.eshop.exception.ObjectNotFoundException;
 import com.jctech.eshop.model.response.OperationResponse;
 import com.jctech.eshop.model.response.OperationResponse.ResponseStatusEnum;
 import com.jctech.eshop.model.user.User;
@@ -29,7 +32,7 @@ public class UserController {
 	
 	@ApiOperation(value = "Gets current user information", response = UserResponse.class)
 	@GetMapping("/user")
-	public UserResponse getUserInfo(@RequestParam(value="user_id", required=true) String userId, HttpServletRequest req) {
+	public UserResponse getUserInfo(@RequestParam(value="userid", required=true) String userId, HttpServletRequest req) {
 		UserResponse resp = new UserResponse();
 		User user;
 		boolean provideUserDetails = false;
@@ -70,4 +73,5 @@ public class UserController {
 		}
 		return resp;
 	}
+
 }

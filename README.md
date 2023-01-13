@@ -12,6 +12,6 @@ database tables added:
  
 added test cases for TTD using junit.jupeter
 
-use SecurityFilterChain to replace depredated WebSecurityConfigurerAdapter
+use SecurityFilterChain to replace deprecated WebSecurityConfigurerAdapter
  
 added tasks.json and launch.json for angular test

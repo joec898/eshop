@@ -92,7 +92,7 @@ public class SecurityConfig {
 				.authorizeRequests()
 				.antMatchers("/user/**").hasAnyAuthority("ADMIN", "MODERATOR")
 				.antMatchers("/session").permitAll()
-				//.antMatchers("/**").permitAll()
+				.antMatchers("/**").permitAll()
 				.anyRequest().authenticated() ;
 
 		return http.build();
